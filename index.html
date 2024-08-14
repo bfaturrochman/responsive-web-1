@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Model</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <header class="header">
+
+            <div class="hero">
+                <h2 class="heading">Shining Merch</h2>
+                <p class="sub-heading">Life & Style</p>
+            </div>
+            <div class="features feature-1">
+                <h4 class="price">IDR 99K</h4>
+                <p class="item">Glasses</p>
+            </div>
+            <div class="features feature-2">
+                <h4 class="price">IDR 199K</h4>
+                <p class="item">T-Shirt</p>
+            </div>
+
+        </header>
+
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="brand">
+                <h1>Shining Merch</h1>
+            </div>
+
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <section class="services">
+            <h2>Services</h2>
+            <div class="service">
+                <div class="icon">💻</div>
+                <h3>Tutorial</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, accusantium!</p>
+            </div>
+                
+            <div class="service">
+                <div class="icon">🎓</div>
+                <h3>Online Courese</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, accusantium!</p>
+            </div>
+      
+            <div class="service">
+                <div class="icon">🕵️</div>
+                <h3>Pengamatan</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, accusantium!</p>
+            </div>
+       
+            <div class="service">
+                <div class="icon">♾️</div>
+                <h3>Tak Terbatas</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, accusantium!</p>
+            </div>
+        </section>
+
+        <section class="galerry">
+            <h2>Galerry</h2>
+            <img src="https://picsum.photos/200/200" alt="">
+            <img src="https://picsum.photos/201" alt="">
+            <img src="https://picsum.photos/202" alt="">
+            <img src="https://picsum.photos/203" alt="">
+            <img src="https://picsum.photos/204" alt="">
+            <img src="https://picsum.photos/205" alt="">
+            <img src="https://picsum.photos/206" alt="">
+            <img src="https://picsum.photos/207" alt="">
+            <img src="https://picsum.photos/208" alt="">
+            <img src="https://picsum.photos/209" alt="">
+
+        </section>
+
+
+    </div>
+
+<!-- javaScript menu Toggle -->
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input')
+        const nav = document.querySelector('nav ul')
+
+        menuToggle.addEventListener('click',function(){
+            nav.classList.toggle('slide');
+        })
+    </script>
+</body>
+</html>
